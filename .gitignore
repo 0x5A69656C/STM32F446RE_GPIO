@@ -1,0 +1,29 @@
+cat > .gitignore << 'EOF'
+# Build artifacts
+*.o
+*.elf
+*.bin
+*.map
+*.hex
+
+# Editor/OS junk
+*.swp
+.DS_Store
+
+# Nix
+result
+EOFcat > .gitignore << 'EOF'
+# Build artifacts
+*.o
+*.elf
+*.bin
+*.map
+*.hex
+
+# Editor/OS junk
+*.swp
+.DS_Store
+
+# Nix
+result
+EOF
