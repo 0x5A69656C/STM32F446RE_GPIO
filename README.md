@@ -13,4 +13,4 @@ Then in a seperate terminal you can step through the program with
 ```
 arm-none-eabi-gdb STM32F446RE_GPIO.elf
 ```
-Despite the name, this program can easily be made to run for STM32F4xx. However, check the .ld file and consult your microcontroller reference manual to see if your FLASH and SRAM have the same origin and length; if they differ just change this to the starting addresses and lengths of your microcontroller.
+Despite the name, this program can easily be made to run for STM32Fxxx. However, check the .ld file and consult your microcontroller reference manual to see if your FLASH and SRAM have the same origin and length; if they differ just change this to the starting addresses and lengths of your microcontroller.
